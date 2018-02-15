@@ -18,7 +18,8 @@ try {
       
         
         sh """oc process -f mytemplate.json -p APPLICATION_NAME=$branch -p SOURCE_REPOSITORY_URL=https://github.com/ttaylorxv/nodejs.git -p SOURCE_REPOSITORY_REF=$source -lapp=$branch | oc apply -f -"""
-            sh """oc start-build $branch"""
+        sh """oc start-build $branch"""
+        //test
             
         }
         
