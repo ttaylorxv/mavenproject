@@ -40,7 +40,7 @@
             "description": "Git source URI for application",
             "displayName": "Git Repository URL",
             "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/jboss-openshift/openshift-quickstarts",
+            "value": "https://github.com/ttaylorxv/mavenproject",
             "required": true
         },
         {
